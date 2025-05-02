@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الخدمات - PPT DESIGNER</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Tajawal', sans-serif; }
+        .service-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="ri-book-line text-2xl text-orange-600 mr-2"></i>
+                <span class="text-xl font-bold text-gray-800">PPT DESIGNER</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-gray-700 hover:text-orange-600">الرئيسية</a>
+                <a href="services.html" class="text-orange-600 font-medium">الخدمات</a>
+                <a href="portfolio.html" class="text-gray-700 hover:text-orange-600">أعمالنا</a>
+                <a href="contact.html" class="text-gray-700 hover:text-orange-600">اتصل بنا</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="login.html" class="px-4 py-2 text-gray-700 hover:text-orange-600">تسجيل الدخول</a>
+                <a href="order.html" class="px-4 py-2 bg-orange-600 text-white rounded hover:bg-orange-700">طلب خدمة</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Header -->
+    <section class="bg-orange-600 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold mb-4">خدماتنا الأكاديمية</h1>
+            <p class="text-xl">نقدم حلولاً متكاملة لطلاب الجامعات والباحثين</p>
+        </div>
+    </section>
+
+    <!-- Services Details -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <!-- Writing Services -->
+            <div class="mb-16">
+                <div class="flex items-center mb-8">
+                    <div class="bg-orange-100 p-3 rounded-full mr-4">
+                        <i class="ri-file-text-line text-orange-600 text-2xl"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold">خدمات الكتابة الأكاديمية</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="service-card bg-gray-50 p-6 rounded-lg border border-orange-100 transition duration-300">
+                        <h3 class="text-xl font-bold mb-3 text-orange-600">كتابة المذكرات الجامعية</h3>
+                        <p class="text-gray-600 mb-4">نقدم خدمة كتابة المذكرات الجامعية باحترافية عالية وفقاً للمعايير الأكاديمية، مع مراعاة جميع متطلبات الجامعة.</p>
+                        <ul class="text-gray-600 mb-4 list-disc list-inside">
+                            <li>مذكرات التخرج لجميع التخصصات</li>
+                            <li>مذكرات الماجستير والدكتوراه</li>
+                            <li>التزام تام بالمنهجية العلمية</li>
+                            <li>تدقيق لغوي وإملائي متكامل</li>
+                        </ul>
+                        <div class="flex justify-between items-center">
+                            <span class="text-orange-600 font-bold">تبدأ من 2500 د.ج</span>
+                            <a href="order.html" class="px-4 py-2 bg-orange-600 text-white rounded hover:bg-orange-700 text-sm">اطلب الآن</a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card bg-gray-50 p-6 rounded-lg border border-orange-100 transition duration-300">
+                        <h3 class="text-xl font-bold mb-3 text-orange-600">كتابة البحوث العلمية</h3>
+                        <p class="text-gray-600 mb-4">خدمة متكاملة لكتابة البحوث العلمية والأوراق الأكاديمية وفقاً لأعلى معايير الجودة والمنهجية العلمية.</p>
+                        <ul class="text-gray-600 mb-4 list-disc list-inside">
+                            <li>بحوث التخرج لطلاب البكالوريوس</li>
+                            <li>أوراق علمية للنشر في المجلات</li>
+                            <li>مراجعات الأدبيات العلمية</li>
+                            <li>إعداد المراجع والببليوغرافيا</li>
+                        </ul>
+                        <div class="flex justify-between items-center">
+                            <span class="text-orange-600 font-bold">تبدأ من 3000 د.ج</span>
+                            <a href="order.html" class="px-4 py-2 bg-orange-600 text-white rounded hover:bg-orange-700 text-sm">اطلب الآن</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Formatting Services -->
+            <div class="mb-16">
+                <div class="flex items-center mb-8">
+                    <div class="bg-orange-100 p-3 rounded-full mr-4">
+                        <i class="ri-edit-2-line text-orange-600 text-2xl"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold">خدمات التنسيق والتدقيق</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="service-card bg-gray-50 p-6 rounded-lg border border-orange-100 transition duration-300">
+                        <h3 class="text-xl font-bold mb-3 text-orange-600">تنسيق المذكرات والبحوث</h3>
+                        <p class="text-gray-600 mb-4">خدمة تنسيق المذكرات والبحوث وفقاً للمعايير الجامعية المطلوبة، مع ضمان الشكل الاحترافي والمحتوى المنظم.</p>
+                        <ul class="text-gray-600 mb-4 list-disc list-inside">
+                            <li>تنسيق حسب متطلبات الجامعة</li>
+                            <li>تنظيم الهيكل العام للعمل</li>
+                            <li>تصحيح الأخطاء الشكلية</li>
+                            <li>إعداد الجداول والفهارس</li>
+                        </ul>
+                        <div class="flex justify-between items-center">
+                            <span class="text-orange-600 font-bold">تبدأ من 1500 د.ج</span>
+                            <a href="order.html" class="px-4 py-2 bg-orange-600 text-white rounded hover:bg-orange-700 text-sm">اطلب الآن</a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card bg-gray-50 p-6 rounded-lg border border-orange-100 transition duration-300">
+                        <h3 class="text-xl font-bold mb-3 text-orange-600">تدقيق لغوي وإملائي</h3>
+                        <p class="text-gray-600 mb-4">خدمة تدقيق لغوي متكاملة تشمل تصحيح الأخطاء الإملائية والنحوية والصياغة الأكاديمية السليمة.</p>
+                        <ul class="text-gray-600 mb-4 list-disc list-inside">
+                            <li>تصحيح الأخطاء الإملائية والنحوية</li>
+                            <li>تحسين الصياغة الأكاديمية</li>
+                            <li>مراجعة التناسق اللغوي</li>
+                            <li>ضمان الجودة اللغوية</li>
+                        </ul>
+                        <div class="flex justify-between items-center">
+                            <span class="text-orange-600 font-bold">تبدأ من 1000 د.ج</span>
+                            <a href="order.html" class="px-4 py-2 bg-orange-600 text-white rounded hover:bg-orange-700 text-sm">اطلب الآن</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- How It Works -->
+            <div class="bg-gray-100 p-8 rounded-lg">
+                <h2 class="text-2xl font-bold mb-6 text-center">كيفية العمل معنا</h2>
+                <div class="grid md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center text-orange-600 mx-auto mb-4">
+                            <i class="ri-file-upload-line text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold mb-2">1. تقديم الطلب</h3>
+                        <p class="text-gray-600 text-sm">املأ نموذج الطلب وارفع الملفات المطلوبة</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center text-orange-600 mx-auto mb-4">
+                            <i class="ri-money-dollar-circle-line text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold mb-2">2. الدفع</h3>
+                        <p class="text-gray-600 text-sm">أكمل عملية الدفع عبر وسائل الدفع المتاحة</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center text-orange-600 mx-auto mb-4">
+                            <i class="ri-user-follow-line text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold mb-2">3. تخصيص كاتب</h3>
+                        <p class="text-gray-600 text-sm">سيتم تخصيص كاتب متخصص لمتابعة طلبك</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center text-orange-600 mx-auto mb-4">
+                            <i class="ri-file-download-line text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold mb-2">4. استلام العمل</h3>
+                        <p class="text-gray-600 text-sm">استلم عملك جاهزاً في الموعد المتفق عليه</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8 text-center">الأسئلة الشائعة</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="mb-4 border-b pb-4">
+                    <h3 class="font-bold mb-2 flex items-center">
+                        <i class="ri-question-line text-orange-600 mr-2"></i>
+                        ما هي مدة تنفيذ الطلب؟
+                    </h3>
+                    <p class="text-gray-600">تختلف مدة التنفيذ حسب نوع الخدمة وحجم العمل، ولكن بشكل عام تتراوح بين 3-7 أيام عمل. يمكن طلب خدمة عاجلة مقابل رسوم إضافية.</p>
+                </div>
+                <div class="mb-4 border-b pb-4">
+                    <h3 class="font-bold mb-2 flex items-center">
+                        <i class="ri-question-line text-orange-600 mr-2"></i>
+                        هل يتم الحفاظ على سرية العمل؟
+                    </h3>
+                    <p class="text-gray-600">نعم، نلتزم بسرية تامة لجميع الأعمال والمعلومات المقدمة من العملاء، ولا يتم مشاركة أي معلومات مع أطراف ثالثة.</p>
+                </div>
+                <div class="mb-4 border-b pb-4">
+                    <h3 class="font-bold mb-2 flex items-center">
+                        <i class="ri-question-line text-orange-600 mr-2"></i>
+                        هل يمكنني التواصل مع الكاتب مباشرة؟
+                    </h3>
+                    <p class="text-gray-600">نعم، نوفر نظام مراسلة داخلي يمكنك من التواصل مباشرة مع الكاتب المخصص لطلبك لمتابعة التفاصيل والتعديلات.</p>
+                </div>
+                <div class="mb-4 border-b pb-4">
+                    <h3 class="font-bold mb-2 flex items-center">
+                        <i class="ri-question-line text-orange-600 mr-2"></i>
+                        ما هي سياسة التعديلات؟
+                    </h3>
+                    <p class="text-gray-600">نوفر مراجعات مجانية لمدة 7 أيام بعد استلام العمل، مع إمكانية إجراء التعديلات حسب ملاحظاتك ومتطلباتك.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 bg-orange-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">هل أنت مستعد لطلب خدمتك؟</h2>
+            <p class="text-xl mb-8">سجل طلبك الآن واحصل على عمل أكاديمي احترافي</p>
+            <a href="order.html" class="inline-block bg-white text-orange-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100">اطلب خدمة الآن</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 flex items-center">
+                        <i class="ri-book-line text-2xl text-orange-400 mr-2"></i>
+                        PPT DESIGNER
+                    </h3>
+                    <p class="text-gray-400">منصة متخصصة في الخدمات الأكاديمية وكتابة المذكرات والبحوث للطلاب والباحثين</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">الخدمات</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-orange-400">كتابة المذكرات</a></li>
+                        <li><a href="#" class="hover:text-orange-400">تنسيق البحوث</a></li>
+                        <li><a href="#" class="hover:text-orange-400">الخدمات الأكاديمية</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">روابط سريعة</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="index.html" class="hover:text-orange-400">الرئيسية</a></li>
+                        <li><a href="portfolio.html" class="hover:text-orange-400">أعمالنا</a></li>
+                        <li><a href="contact.html" class="hover:text-orange-400">اتصل بنا</a></li>
+                        <li><a href="faq.html" class="hover:text-orange-400">الأسئلة الشائعة</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">تواصل معنا</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="ri-map-pin-line text-orange-400 mt-1 mr-2"></i>
+                            <span>الجامعة المركزية، مبنى الابتكار</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="ri-phone-line text-orange-400 mr-2"></i>
+                            <span>0550123456</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="ri-mail-line text-orange-400 mr-2"></i>
+                            <span>info@ppt-designer.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2023 PPT DESIGNER. جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
